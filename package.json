@@ -1,0 +1,35 @@
+{
+  "name": "30daysofjavascriptintypescript",
+  "version": "1.0.0",
+  "description": "Following 30DaysofJavascript repo in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazzacoot/30DaysOfJavaScriptInTypescript.git"
+  },
+  "keywords": [
+    "TS",
+    "JS"
+  ],
+  "author": "Faron Gottlieb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fazzacoot/30DaysOfJavaScriptInTypescript/issues"
+  },
+  "homepage": "https://github.com/Fazzacoot/30DaysOfJavaScriptInTypescript#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "ts-loader": "^6.2.1"
+  }
+}
